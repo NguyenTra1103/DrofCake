@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_settings"
+    android:orderInCategory="1"
+    android:title="@string/settings"
+    app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="1"
+        android:title="@string/order"
+        app:showAsAction="never"/>
+        <!--
+        android:onClick="order"-->
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="1"
+        android:icon="@drawable/froyo_circle"
+        android:title="@string/status"
+        app:showAsAction="always" />
+
+
+</menu>
